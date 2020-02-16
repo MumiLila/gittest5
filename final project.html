@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Last Project.css">
+    <script src="Last Project.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <button type="text" onclick="background()">Change background color</button>
+        <script>
+           function background() {
+            document.body.style.backgroundColor = "gray";
+        }
+        </script>
+    <div class="header">
+        <input type="text" id="fillname">
+        <button type="button" onclick="changeName()">Change Name</button>
+    </div>
+    <div class="picture">
+        <div id="fullname">Wichai Issaracheepanon</div>
+        <img id="change" src="img/smile1.jpg" onmouseover="this.src='img/smile2.jpg'" onmouseout="this.src='img/smile1.jpg'" alt="smile" >
+        <p>It is my picture. My nick name is Yu</p>
+    </div>
+    <div class="container">
+        <ul>
+            <li><strong>1978</strong> I was born in Bangkok</li>
+            <h3>EDUCETION</h3>
+            <li><strong>1996</strong> Wat Nuannoradit School
+            </li>    
+            <li><strong>2001</strong> Ramkhamhaeng University
+            </li>
+            <h3>EXPERIENCE</h3>
+            <li><strong>2006</strong>
+                Marketing Manager
+               <br>Modernform Public Company limited 
+               <br>- Marketing manager in Kitchen Brand product.
+               <br>- Product report provide in deep analysis as current market share distributions.
+               <br>- Developed new promotional campaign by making co-promotion with property developer.
+               <br>- Established new social media team including, SEO specialist, content developer that grew company’s website presence and country brand awareness by 15%
+            </li>
+            <li><strong>2009</strong>
+                Hotel Manager
+                <br>CHOMTAWAN Resort Hua Hin
+                <br>- Schedule reservation online, by phone and in person.
+                <br>- Deal with hotel agency
+                <br>- Manage the staffs in the cleaning of rooms and maintenance the hotel.
+                <br>- Daily interaction with customers and staffs.
+            </li>
+            <li><strong>2017</strong>
+                Fitness Manager
+                <br>-Manage overall operations of the fitness
+                <br>-Manage customer feedback effectively to ensure continuous service and programme improvement
+                <br>-Ensure customers and guests receive friendly and consistent personalised service from all team members
+                <br>-Worked one-on-one with clients to help modify exercises for maximum benefit and safety.
+            </li>
+        </ul>
+
+    </div>
+    <div class="footer">
+        <br><h3>SKILLS</h3>
+        <div id="footer1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit dolorum suscipit at quae, fugiat aperiam?</div>
+    </div>
+    <div id="skill">
+        <textarea name="jskill" id="yuskill" cols="30" rows="10"></textarea>
+        <button type="text" onclick="changeSkill()">Change Skills</button>
+    </div>
+</body>
+</html>
